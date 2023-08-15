@@ -1,0 +1,14 @@
+First Task:
+select [نوع المنفذ], max([قيمة الواردات]) from Imports
+
+SecondTask:
+select [نوع المنفذ], sum([قيمة الواردات]) from Imports group by [نوع المنفذ]
+
+ThirdTask:
+select [نوع المنفذ], min([قيمة الواردات]) from Imports 
+
+FourthTask:
+select * from Imports Order By [قيمة الواردات] ASC
+
+FifthTask:
+select [السنة], sum([قيمة الواردات]) from Imports group by [السنة]
